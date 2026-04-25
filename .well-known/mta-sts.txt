@@ -1,5 +1,5 @@
 version: STSv1
-mode: testing # 1. Decide your mode. enforce
+mode: enforce # 1. Decide your mode. enforce/testing
 mx: mail.zwiterion.ovh      # 2. Add your primary mailserver hostname (see MX records in your DNS)
 #mx: mx2.your_domain.tld      # 3. If you have secondary mailservers, add one line for each.
                              #    In case all servers share the same subdomain, you may also use wildcards like *.mail.protection.outlook.com
