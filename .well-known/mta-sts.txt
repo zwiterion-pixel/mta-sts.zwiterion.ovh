@@ -1,7 +1,4 @@
 version: STSv1
-mode: enforce # 1. Decide your mode. enforce/testing
-mx: mail.zwiterion.ovh      # 2. Add your primary mailserver hostname (see MX records in your DNS)
-#mx: mx2.your_domain.tld      # 3. If you have secondary mailservers, add one line for each.
-                             #    In case all servers share the same subdomain, you may also use wildcards like *.mail.protection.outlook.com
-max_age: 86401             # 4. Depending on your mode above, 1209600 seconds = 2 weeks might be a good value.
-                             # 5. Remove all the comments (if that wasn't obvious to you).
+mode: enforce
+mx: mail.zwiterion.ovh    
+max_age: 86401
