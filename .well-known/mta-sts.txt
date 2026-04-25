@@ -1,4 +1,4 @@
 version: STSv1
 mode: enforce
 mx: mail.zwiterion.ovh    
-max_age: 86401
+max_age: 2419200
